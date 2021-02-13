@@ -1,0 +1,39 @@
+.navbar {
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    flex-flow: row;
+}
+
+.navbar > .navbar-item {
+    height: 50px;
+    margin-left: auto;
+    margin-right: 3%;
+}
+
+.navbar-item ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 9px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.navbar-item ul li {
+    list-style: none;
+    width: 90px;
+}
+
+.navbar-item ul li a {
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 2.0;
+    text-align: center;
+    display: block;
+    padding: 0;
+    border-radius: 3px;
+}
