@@ -48,10 +48,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
-          `gatsby-remark-codefence`,
-          `gatsby-remark-katex`,
-        ],
+        plugins: [`gatsby-remark-codefence`, `gatsby-remark-katex`],
       },
     },
   ],
