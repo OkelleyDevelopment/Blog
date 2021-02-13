@@ -7,6 +7,7 @@ const Blog = () => (
     <Layout>
         <SEO title="blog" />
         <h1 style={{textAlign: "center", textDecoration: "cyan underline"}}>Articles</h1>
+        <h3>Coming Soon. Check back often!</h3>
         
     </Layout>
 )

@@ -2,11 +2,6 @@ import React from "react";
 import { Link } from "gatsby";
 import './navbar.css';
 
-import {
-    FaGithub,
-    FaLinkedin,
-} from "react-icons/fa";
-
 const Navbar = (props) => {
     const navMenuItem = ["Blog", "Research", "About", "Contact"];
 
@@ -36,7 +31,14 @@ const Navbar = (props) => {
 
     return (
         <nav className="navbar">
-            <div className="navbar-item" style={{align: `center`}}>
+            <div>
+                <a target="_blank"
+                rel="nofollow noopener noreferrer"
+                href="https://github.com/OkelleyDevelopment">
+                    <h2 style={{fontSize: "30px"}}>OKelley<span stlye={{color: "light cyan"}}>Development</span></h2>
+                </a>
+            </div>
+            <div className="navbar-item" style={{align: `right`}}>
                 <ul>
                     {navListing}
                 </ul>
