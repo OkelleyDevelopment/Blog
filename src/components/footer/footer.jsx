@@ -1,15 +1,13 @@
 import React from "react";
-import { Link } from "gatsby";
 
-const Footer = () => {
+const Footer = (props) => {
 
     const currentYear = new Date().getFullYear();
 
     return (
         <footer>
-        <p>Copyright &copy; {currentYear}
-        </p>
-    </footer>
+            <p style={{color: "cyan"}}>{props.name}, Copyright &copy; {currentYear}</p>
+        </footer>
     )
 }
 

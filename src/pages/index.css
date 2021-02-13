@@ -11,6 +11,7 @@ body {
     background-image: url("../images/dark_trail.png") no-repeat center center;
     background-size: cover;
     height: auto;
+    margin: 50px;
 }
 
 h1 {
