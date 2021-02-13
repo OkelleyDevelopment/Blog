@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import "./navbar.css"
 
 const Navbar = props => {
-  const navMenuItem = ["Blog", "Research", "About", "Contact"]
+  const navMenuItem = ["About", "Blog", "About", "Contact"]
 
   const navListing = navMenuItem.map(item => {
     let pagelink = ""

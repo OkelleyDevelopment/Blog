@@ -3,8 +3,8 @@ module.exports = {
     title: `Development Blog`,
     description: `Web blog to post my development journey`,
     author: `Nicholas`,
-    siteUrl: `localhost:8000`,
   },
+  pathPrefix: "/portfolio-blog",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
