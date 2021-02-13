@@ -1,9 +1,7 @@
 import React from "react"
 import "./index.css"
-import Landing from  "../components/landing/landing";
+import Landing from "../components/landing/landing"
 
-const IndexPage = () => (
-    <Landing />
-)
+const IndexPage = () => <Landing />
 
-export default IndexPage;
+export default IndexPage
