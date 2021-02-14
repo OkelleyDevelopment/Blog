@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "../header/header"
 import Footer from "../footer/footer"
 
-const Layout = ({ children }) => {
+const Layout = ({ author, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -22,8 +22,7 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
       </div>
-
-      <Footer name="OKelleyDevelopment" />
+      <Footer name={author} />
     </div>
   )
 }
