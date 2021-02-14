@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import "./navbar.css"
 
 const Navbar = props => {
+
   const navMenuItem = ["About", "Blog", "Contact"]
 
   const navListing = navMenuItem.map(item => {
@@ -41,6 +42,7 @@ const Navbar = props => {
             </span>
           </h2>
         </Link>
+
       </div>
       <div className="navbar-item" style={{ align: `right` }}>
         <ul>{navListing}</ul>
