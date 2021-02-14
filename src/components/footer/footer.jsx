@@ -1,11 +1,12 @@
 import React from "react"
+import "./footer.css";
 
 const Footer = props => {
   const currentYear = new Date().getFullYear()
 
   return (
     <footer>
-      <p style={{ color: "cyan" }}>
+      <p className="p-footer">
         {props.name}, Copyright &copy; {currentYear}
       </p>
     </footer>
