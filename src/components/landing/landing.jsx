@@ -13,7 +13,7 @@ const LandingPage = ({ children }) => {
         Computer Scientist || Software Developer{" "}
       </h3>
       <div>
-        <Link to="/portfolio">Learn More</Link>
+        <Link to="/about">Learn More</Link>
       </div>
     </div>
   )

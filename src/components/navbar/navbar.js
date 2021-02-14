@@ -3,7 +3,8 @@ import { Link } from "gatsby"
 import "./navbar.css"
 
 const Navbar = props => {
-  const navMenuItem = ["Blog", "Research", "About", "Contact"]
+
+  const navMenuItem = ["About", "Blog", "Contact"]
 
   const navListing = navMenuItem.map(item => {
     let pagelink = ""
@@ -33,15 +34,12 @@ const Navbar = props => {
   return (
     <nav className="navbar">
       <div>
-        <a
-          target="_blank"
-          rel="nofollow noopener noreferrer"
-          href="https://github.com/OkelleyDevelopment"
-        >
-          <h2 style={{ fontSize: "30px" }}>
-            OKelley<span stlye={{ color: "light cyan" }}>Development</span>
+        <Link to="/">
+        <h2 style={{ fontSize: "30px" }}>
+            OKelley<span stlye={{textDecoration: "none", color: "cyan" }}>Development</span>
           </h2>
-        </a>
+        </Link>
+
       </div>
       <div className="navbar-item" style={{ align: `right` }}>
         <ul>{navListing}</ul>

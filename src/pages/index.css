@@ -18,6 +18,8 @@ h1 {
     color: white;
     font-size: 5rem;
     text-align: center;
+    text-decoration: underline;
+   /* border-bottom: 3px solid cyan; */
 }
 
 h3 {
@@ -28,6 +30,36 @@ h3 {
 
 p {
     color: white;
-    font-size: 2em;
+    font-size: 12pt;
     text-align: center;
+}
+
+/* About Page Styling */
+
+.container {
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.post {
+    flex-wrap: initial;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content {
+    border: 1px solid white;
+    margin: 20px 10% ;
+}
+
+.content h1, h2, p {
+    margin: 25px;
+    padding-bottom: 20px;
+    color: white;  
+}
+
+.content p {
+    font-size: 25px;
 }
