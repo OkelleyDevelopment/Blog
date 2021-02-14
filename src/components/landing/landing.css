@@ -1,0 +1,15 @@
+
+* {
+    padding: none;
+    margin: 0;
+}
+
+.button-box {
+    margin-left: 47.85%;
+    margin-top: 30px;
+}
+
+.button-box Link {
+    text-decoration: none;
+    color: white;
+}

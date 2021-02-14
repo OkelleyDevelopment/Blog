@@ -2,20 +2,22 @@ import React from "react"
 import SEO from "../components/SEO/seo"
 import Layout from "../components/layout/layout"
 
-const Contact = props => (
-  <Layout>
+import "./index.css"
+
+const Contact = (props) => (
+  <Layout author="OkelleyDevelopment">
     <SEO title="contact" />
 
     <section id="contact">
       <div className="contact-bg">
         <div className="container">
           <h1 style={{ textAlign: "center" }}>Contact</h1>
-
+          <p>Feel free to shoot me an email or check out my other social links below!</p>
           <div className="social-links">
             <ul>
-              <li>Email: okelleynp@gmail.com</li>
-              <li>LinkedIn: www.linkedin.com/in/nicholas-o-kelley</li>
-              <li>Github: github.com/OkelleyDevelopment</li>
+              <li><span style={{color:"cyan"}}>Email</span>: okelleynp@gmail.com</li>
+              <li><span style={{color:"cyan"}}>Linkedin</span>: <a href="www.linkedin.com/in/nicholas-o-kelley">www.linkedin.com/in/nicholas-o-kelley</a></li>
+              <li><span style={{color:"cyan"}}>GitHub</span>: <a href="github.com/OkelleyDevelopment"> github.com/OkelleyDevelopment</a></li>
             </ul>
           </div>
         </div>

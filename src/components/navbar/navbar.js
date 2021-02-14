@@ -21,7 +21,7 @@ const Navbar = props => {
           className="page-link"
           style={{
             boxShadow: `none`,
-            textDecoration: `none`,
+            textDecoration: `underline`,
             color: `inherit`,
           }}
         >
@@ -35,8 +35,11 @@ const Navbar = props => {
     <nav className="navbar">
       <div>
         <Link to="/">
-        <h2 style={{ fontSize: "30px" }}>
-            OKelley<span stlye={{textDecoration: "none", color: "cyan" }}>Development</span>
+          <h2 style={{ fontSize: "30px" }}>
+            OKelley
+            <span stlye={{ textDecoration: "none", color: "cyan" }}>
+              Development
+            </span>
           </h2>
         </Link>
 

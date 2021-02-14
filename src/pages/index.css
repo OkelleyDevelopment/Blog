@@ -7,13 +7,6 @@ body {
     background-color: #171817;
 }
 
-.landing {
-    background-image: url("../images/dark_trail.png") no-repeat center center;
-    background-size: cover;
-    height: auto;
-    margin: 50px;
-}
-
 h1 {
     color: white;
     font-size: 5rem;
@@ -62,4 +55,45 @@ p {
 
 .content p {
     font-size: 25px;
+}
+
+/* Contact Page */
+#contact {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contact h1{
+    color: white;
+}
+
+#contact p {
+    color: white;
+    font-size: 20pt;
+    margin-top: 3%;
+}
+
+#contact .social-links {
+    margin-top: 5%;
+    border: 1px solid lightblue;
+}
+
+#contact ul {
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+#contact li {
+    font-size: 20pt;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#contact li:last-child {
+    margin-bottom: 10%;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
 }
