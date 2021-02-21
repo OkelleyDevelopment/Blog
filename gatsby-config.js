@@ -43,16 +43,7 @@ module.exports = {
         plugins: [
           `gatsby-remark-codefence`, 
           `gatsby-remark-katex`,
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              classPrefix: "language-",
-              inlineCodeMarker: null,
-              aliases: {},
-              showLineNumbers: false,
-              noInlineHighlight: false,
-            },
-          },
+
         ],
       },
     },
