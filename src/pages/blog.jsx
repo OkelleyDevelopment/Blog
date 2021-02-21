@@ -6,7 +6,7 @@ import Layout from "../components/layout/layout"
 const Blog = (props) => 
 {
 
-  const {edges} = props.data.allMarkdownRemark;
+  //const {edges} = props.data.allMarkdownRemark;
 
   return (
     <Layout author="OkelleyDevelopment">
