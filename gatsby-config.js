@@ -4,7 +4,6 @@ module.exports = {
     description: `Web blog to post my development journey`,
     author: `Nicholas`,
   },
-  pathPrefix: "/portfolio-blog",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -17,16 +16,9 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `content`,
+        name: `images`,
         path: `${__dirname}/content`,
         name: "pages",
-      },
-    },
-    {
-      resolve: `gatsby-background-image`,
-      options: {
-        name: `background`,
-        path: `${__dirname}/src/images`,
       },
     },
     `gatsby-plugin-offline`,
@@ -48,7 +40,20 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-codefence`, `gatsby-remark-katex`],
+        plugins: [
+          `gatsby-remark-codefence`, 
+          `gatsby-remark-katex`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
+          },
+        ],
       },
     },
   ],

@@ -1,9 +1,10 @@
 ---
-title: Hello World!
-date: "2021-02-12"
+path: "/content/Why-a-VCS"
+title: Why a VCS?
+date: "2021-02-14"
 image: ""
 author: "Nicholas"
-tags: ["Rust", "New Beginnings"]
+tags: ["VCS", "Git"]
 excerpt: "Learn importance of a VCS"
 ---
 
