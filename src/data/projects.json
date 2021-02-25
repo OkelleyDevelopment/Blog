@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Two Player Games",
+        "description": "Research exploring Evolutionary Game Theory on Two Player Games!",
+        "link":{
+            "href": "https://github.com/HammerAPI/TwoPlayerGames",
+            "text": "View More"
+        }
+    },
+    {
+        "name": "Debian Dev. Tools",
+        "description": "First automation script that installs common developer tools",
+        "link":{
+            "href": "https://github.com/OkelleyDevelopment/Debian_Dev_Tools",
+            "text": "View More"
+        }
+    },
+    {
+        "name": "Nvim-Config",
+        "description": "My personalized NeoVim configuration",
+        "link":{
+            "href": "https://github.com/OkelleyDevelopment/Nvim-Config",
+            "text": "View More"
+        }
+    }
+]

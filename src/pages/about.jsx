@@ -6,7 +6,7 @@ import Layout from "../components/layout/layout"
 import "./index.css"
 
 const About = () => (
-  <Layout author="OkelleyDevelopment">
+  <Layout>
     <SEO title="About" />
     <h1 style={{ textAlign: "center" }}>About Me</h1>
     <div className="container">
@@ -22,6 +22,16 @@ const About = () => (
         </div>
       </div>
     </div>
+
+    <div className="container">
+      <div className="post">
+        <div className="content">
+          <h2>Two Player Games</h2>
+          <p>Research exploring Evolutionary Game Theory on Two Player Games!</p>
+        </div>
+      </div>
+    </div>
+
   </Layout>
 )
 

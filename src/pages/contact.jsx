@@ -5,7 +5,7 @@ import Layout from "../components/layout/layout"
 import "./index.css"
 
 const Contact = (props) => (
-  <Layout author="OkelleyDevelopment">
+  <Layout>
     <SEO title="contact" />
 
     <section id="contact">
