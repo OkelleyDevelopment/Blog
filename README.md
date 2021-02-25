@@ -22,3 +22,5 @@ In no particular order I hope to have the following features:
 - [] Review Graphql to add images to the Landing page (span the entire page)
 - [] Shift away from CSS to SCSS or less?
 - [] Add a form to the Contact Page
+- [] Adjust styling to be more responsive!
+- [] Fix the navbar alignment issue

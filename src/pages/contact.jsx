@@ -11,8 +11,8 @@ const Contact = (props) => (
     <section id="contact">
       <div className="contact-bg">
         <div className="container">
-          <h1 style={{ textAlign: "center" }}>Contact</h1>
-          <p>Feel free to shoot me an email or check out my other social links below!</p>
+          <h1 style={{ textAlign: "center", color: "orange" }}>Contact</h1>
+          <p style={{textAlign:"center"}}>Feel free to shoot me an email or check out my other social links below!</p>
           <div className="social-links">
             <ul>
               <li><span style={{color:"cyan"}}>Email</span>: okelleynp@gmail.com</li>

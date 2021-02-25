@@ -29,6 +29,12 @@ body {
     margin-right: 3%;
 }
 
+.blog-post-preview h1 {
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+}
+
 .blog-post-preview p {
     text-align: left;
     font-size: 15pt;

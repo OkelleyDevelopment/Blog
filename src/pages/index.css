@@ -9,7 +9,7 @@ body {
 
 h1 {
     color: white;
-    font-size: 5rem;
+    font-size: 50pt;
     text-align: center;
     text-decoration: underline;
    /* border-bottom: 3px solid cyan; */
@@ -24,7 +24,7 @@ h3 {
 p {
     color: white;
     font-size: 12pt;
-    text-align: center;
+    text-align: justify;
 }
 
 /* About Page Styling */
@@ -49,19 +49,24 @@ p {
 
 .content h1, h2, p {
     margin: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     color: white;  
 }
 
+.content h2 {
+    color: #009494;
+    text-decoration: none;
+
+}
+
 .content p {
-    font-size: 25px;
+    font-size: 20px;
+    
 }
 
 /* Contact Page */
-#contact {
-    margin-left: 10%;
-    margin-right: 10%;
-}
+
+
 
 #contact h1{
     color: white;
@@ -79,14 +84,14 @@ p {
 }
 
 #contact ul {
-    margin-left: 27%;
+    margin-left: 22.5%;
     margin-top: 5%;
 }
 
 #contact li {
     font-size: 20pt;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #contact li:last-child {
