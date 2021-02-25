@@ -2,10 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Development Blog`,
     description: `Web blog to post my development journey`,
-    author: `Nicholas`,
+    author: `Nicholas P. O'Kelley`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,8 +18,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/content`,
-        name: "pages",
+        path: `${__dirname}/content/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+        ignore: [`**/\.*`], // ignore dot files
       },
     },
     `gatsby-plugin-offline`,

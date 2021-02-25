@@ -1,18 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
-import SEO from "../SEO/seo"
+import { graphql, Link, useStaticQuery } from "gatsby"
 import "./landing.css"
 
+import BackgroundImage from 'gatsby-background-image'
+
 const LandingPage = props => {
+  
   return (
-    <div>
-      <div className="background">
-        <SEO title="Home" keywords={["okelleydevelopment"]} />
+      <div>
         <h1
           style={{
+            paddingTop: "190px",
             textAlign: "center",
+            marginTop: "100px",
+            color: "#ddd",
+            lineHeight: "100px",
+            fontSize: "80px",
+            fontFamily: "sans-serif",
+            textTransform: "uppercase",
             textDecoration: "none",
-            marginTop: "180px",
           }}
         >
           Nicholas O'Kelley
@@ -20,18 +26,29 @@ const LandingPage = props => {
         <h3
           style={{
             textAlign: "center",
-            marginTop: "25px",
+            color: "#009494",
+            lineHeight: "90px",
+            marginTop: "0px",
+            marginBottom: "20px",
+            textTransform: "uppercase",
             textDecoration: "underline",
-            color: "cyan",
           }}
         >
-          Computer Scientist || Software Developer{" "}
+          Computer Scientist<span style={{color:"orange"}}> & </span>Software Developer{" "}
         </h3>
         <div className="button-box">
-          <Link to="/about">Learn More</Link>
+          <Link to="/about" 
+                style={{border: "1px #00e5e5 solid",
+                        textDecoration: "none",
+                        color: "White",
+                        fontSize: "20px",
+                        padding: "10px 40px",
+              }}
+              >
+                Learn More
+              </Link>
         </div>
       </div>
-    </div>
   )
 }
 

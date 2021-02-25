@@ -11,6 +11,7 @@ const Layout = ({ author, children }) => {
       site {
         siteMetadata {
           title
+          author
         }
       }
     }
@@ -22,7 +23,7 @@ const Layout = ({ author, children }) => {
       <div>
         <main>{children}</main>
       </div>
-      <Footer name={author} />
+      <Footer name={data.site.siteMetadata.author} />
     </div>
   )
 }
