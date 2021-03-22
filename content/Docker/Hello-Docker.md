@@ -2,7 +2,7 @@
 path: "/Hello-Docker"
 title: Hello Docker
 date: "2021-03-12"
-except: "Introduction to Containerization using Docker"
+excerpt: "Introduction to Containerization using Docker"
 author: "Nicholas P. O'Kelley"
 tags: ["Containerization", "Docker", "Image"]
 ---
@@ -71,9 +71,9 @@ Or chose a more manual install following the instructions for your distro on the
 A big issue is when programming is file space. To keep your system clean
 occasionally run these commands:
 
-- `docker image prune` to clean up just "dangling" images
+`docker image prune` to clean up just "dangling" images
 
-- `docker system prune` will clean up everything
+`docker system prune` will clean up everything
 
-  The system command is usually passed the `-a` flag which cleans the whole system
-  of any extraneous images, caches, etc.
+The system command is usually passed the `-a` flag which cleans the whole system
+of any extraneous images, caches, etc.
