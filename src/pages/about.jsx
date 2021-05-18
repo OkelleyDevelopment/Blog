@@ -5,13 +5,14 @@ import Layout from "../components/layout/layout"
 
 import "./index.css"
 
-const About = () => (
-  <Layout author="OkelleyDevelopment">
-    <SEO title="About" />
-    <h1 style={{ textAlign: "center" }}>About Me</h1>
+const About = (props) => (
+  <Layout>
+    <SEO title="Portfolio" />
+    <h1 style={{ textAlign: "center" }}>Portfolio</h1>
     <div className="container">
       <div className="post">
         <div className="content">
+          <h2>Overview</h2>
           <p>
             Hello! My name is Nicholas and I study Computer Science and
             Mathematics at Western Carolina University. I'm an aspiring
@@ -22,6 +23,25 @@ const About = () => (
         </div>
       </div>
     </div>
+
+    <div className="container">
+      <div className="post">
+        <div className="content">
+          <h2>Two Player Games</h2>
+          <p>My current team research project for the 2020-2021 school year, exploring Evolutionary Game Theory on Two Player Games!</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="container">
+      <div className="post">
+        <div className="content">
+          <h2>Competitive Graph Coloring Game</h2>
+          <p>Research completed during the 2019-2020 school year, exploring mediums for teaching/ demonstrating Graph theory with software</p>
+        </div>
+      </div>
+    </div>
+
   </Layout>
 )
 

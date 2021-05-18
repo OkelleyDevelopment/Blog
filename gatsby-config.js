@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Development Blog`,
     description: `Web blog to post my development journey`,
-    author: `Nicholas`,
+    author: `Nicholas P. O'Kelley`,
   },
-  pathPrefix: "/portfolio-blog",
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,16 +17,16 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `content`,
-        path: `${__dirname}/content`,
-        name: "pages",
+        name: `images`,
+        path: `${__dirname}/content/`,
       },
     },
     {
-      resolve: `gatsby-background-image`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: `background`,
-        path: `${__dirname}/src/images`,
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+        ignore: [`**/\.*`], // ignore dot files
       },
     },
     `gatsby-plugin-offline`,
@@ -48,7 +48,11 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-codefence`, `gatsby-remark-katex`],
+        plugins: [
+          `gatsby-remark-codefence`, 
+          `gatsby-remark-katex`,
+
+        ],
       },
     },
   ],

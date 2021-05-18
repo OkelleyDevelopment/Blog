@@ -9,10 +9,18 @@ with React to rebuild my personal website and include a blog so that goal could 
 
 ## Future Goals
 
+In no particular order I hope to have the following features:
+
 - [x] Start Project by setting up a repository on GitHub
 - [x] Add a Landing Page
-- [] Add a Contact Page
+- [x] Add a Contact Page
 - [x] Add a About Page
-- [] add image to about page
-- [] Implement a Blog that displays articles
 - [x] Deploy!
+- [x] Implement a Blog that displays articles
+- [x] Write first article
+- [] Add image to about page
+- [] Review Graphql to add images to the Landing page (span the entire page)
+- [] Shift away from CSS to SCSS or less?
+- [] Add a form to the Contact Page
+- [] Adjust styling to be more responsive!
+- [] Fix the navbar alignment issue
