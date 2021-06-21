@@ -11,7 +11,7 @@ export default function Template({ data }) {
     <div className="blog-post-container">
       <Helmet title={`${post.frontmatter.title}`} />
       <div className="blog-post">
-        <h1>{post.frontmatter.title}</h1>
+        <h1 id="post-title">{post.frontmatter.title}</h1>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
