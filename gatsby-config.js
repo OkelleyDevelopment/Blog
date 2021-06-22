@@ -51,7 +51,14 @@ module.exports = {
         plugins: [
           `gatsby-remark-codefence`, 
           `gatsby-remark-katex`,
-
+          {
+            resolve: `gatsby-remark-embed-snippet`,
+            options: {},
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {},
+          },
         ],
       },
     },

@@ -26,13 +26,13 @@ An image is typically:
 
 An image is NOT a completed OS as the host provides the kernel.
 
-### Examples:
+## Examples:
 
 - As small as a single file (app binary) such as a Go static binary.
 - As big as an Ubuntu distro wtih apt, Apache, PHP, and more installed.
 
 Additionally, each layer of an image is uniquely identified and only stored on the host machine
-one.
+once.
 
 - This saves space on the host system!
 
@@ -44,25 +44,24 @@ are relevant to you. I use linux as my daily driver therefore the commands will 
 However, I believe it is important to link others to resources so below I will link to install guides
 for the MacOS and Windows Operating systems.
 
-### Windows
+## Windows
 
 Below is the link to the Docker offical documentation pages for the Windows installer.
 
 - [Windows Install](https://docs.docker.com/docker-for-windows/install/)
 
-### MacOS
+## MacOS
 
 Below is the link to the Docker offical documentation pages for the MacOS installer.
 
 - [Windows Install](https://docs.docker.com/docker-for-mac/install/)
 
-### Linux
+## Linux
 
 - Run the install script below (NOTE: Will be on the nightly build)
 
-```sh
-curl -sSL https://get.docker.com/ | sh
-```
+`embed:snippets/dkr_cmd.sh`
+
 
 Or chose a more manual install following the instructions for your distro on the offical docs (I may add links later).
 

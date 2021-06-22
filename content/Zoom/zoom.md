@@ -14,11 +14,7 @@ it's best to install it correctly.
 
 ## Installing
 
-```sh
-wget https://zoom.us/client/latest/zoom_amd64.deb
-
-sudo apt install ./zoom_amd64.deb
-```
+`embed:snippets/installing.sh`
 
 ## Adjusting Menu Size
 
@@ -26,8 +22,5 @@ You will need to edit the `zoomus.conf` file in the `~/.config/`.
 
 Change line 34 as shown below
 
-```
-scaleFactor=1
 
-scaleFactor=0.75
-```
+`embed:snippets/sizing.sh`

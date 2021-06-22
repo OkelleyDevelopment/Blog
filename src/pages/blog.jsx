@@ -10,7 +10,7 @@ const Blog = ({ data }) => {
   return (
     <Layout>
 
-      <h1>Blog Posts</h1>
+      <h1 className="blog-posts">Notes</h1>
 
           <div className="blog-posts">
       {posts

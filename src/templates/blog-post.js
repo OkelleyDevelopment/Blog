@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/layout/layout"
 
 import './blog-post.css';
+import '../styles/prism-nord.css';
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data
