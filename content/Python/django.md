@@ -1,8 +1,8 @@
 ---
 path: "/django"
-title: Django Crash Course
+title: Django Crash Course Notes
 date: "2021-06-16"
-excerpt: "Notes on Django Webframework"
+excerpt: "Notes on Django"
 author: "Nicholas O'Kelley"
 tags: ["Python", "MVT", "Web"]
 ---
@@ -98,3 +98,23 @@ Runnging the server can be done in a couple ways: the first reveals the server t
 
 - Creates the models (the database schema)
 
+## Security In POST forms
+
+Django comes with some built in security such as
+
+```
+csrf_token
+```
+
+for all urls that target internal URLs and help prevent Site Request Forgeries.
+
+## Testing
+
+- Test Driven Development (TDD): Write the tests prior to writing the code
+
+Testing can occur before, during, or after the code is written. The goal is to make sure
+the output is valid so the WHEN is not important, just get it done. Make sure the tests are sensible
+
+- Separate TestClass for each model or view
+- Separate test case for each set of conditions you want to test
+- Test method names that describe
