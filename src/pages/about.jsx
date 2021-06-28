@@ -8,7 +8,7 @@ import "./index.css"
 const About = (props) => (
   <Layout>
     <SEO title="Portfolio" />
-    <h1 style={{ textAlign: "center" }}>Portfolio</h1>
+    <h1 style={{ textAlign: "center", color: "#d05700" }}>Portfolio</h1>
     <div className="container">
       <div className="post">
         <div className="content">
@@ -37,7 +37,7 @@ const About = (props) => (
       <div className="post">
         <div className="content">
           <h2>Competitive Graph Coloring Game</h2>
-          <p>Research completed during the 2019-2020 school year, exploring mediums for teaching/ demonstrating Graph theory with software</p>
+          <p>Research completed during the 2019-2020 school year, exploring differing mediums for teaching/ demonstrating Compettive Graph Coloring and Graph theory with software.</p>
         </div>
       </div>
     </div>

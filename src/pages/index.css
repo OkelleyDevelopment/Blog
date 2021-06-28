@@ -1,104 +1,285 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+@media screen and (min-width: 1024px) {
+  .content {
+    border: 1px solid white;
+    margin: 20px 10%;
+  }
+
+  .content h1,
+  h2,
+  p {
+    margin: 25px;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  .content h2 {
+    color: #009494;
+    text-decoration: none;
+  }
+
+  .content p {
+    font-size: 20px;
+  }
+
+  /* Contact Page */
+
+  #contact h1 {
+    color: white;
+  }
+
+  #contact p {
+    color: white;
+    font-size: 20pt;
+    margin-top: 3%;
+  }
+
+  #contact .social-links {
+    margin-top: 5%;
+   
+  }
+
+  #contact ul {
+    margin-left: 22.5%;
+    margin-top: 5%;
+  }
+
+  #contact li {
+    font-size: 20pt;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  #contact li:last-child {
+    margin-bottom: 10%;
+  }
+
+  #contact a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    border: 1px solid blue;
+    margin: 20px 10%;
+  }
+
+  .content h1,
+  h2,
+  p {
+    margin: 25px;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  .content h2 {
+    color: #009494;
+    text-decoration: none;
+  }
+
+  .content p {
+    font-size: 20px;
+  }
+
+  /* Contact Page */
+
+  #contact h1 {
+    color: white;
+  }
+
+  #contact p {
+    color: white;
+    font-size: 20pt;
+    margin-top: 3%;
+  }
+
+  #contact .social-links {
+    margin-top: 5%;
+    border: 1px solid lightblue;
+  }
+
+  #contact ul {
+    margin-left: 22.5%;
+    margin-top: 5%;
+  }
+
+  #contact li {
+    font-size: 20pt;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  #contact li:last-child {
+    margin-bottom: 10%;
+  }
+
+  #contact a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    border: 1px solid white;
+    margin: 20px 10%;
+  }
+
+  .content h1,
+  h2,
+  p {
+    margin: 25px;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  .content h2 {
+    color: #009494;
+    text-decoration: none;
+  }
+
+  .content p {
+    font-size: 20px;
+  }
+
+  /* Contact Page */
+
+  #contact h1 {
+    color: white;
+  }
+
+  #contact p {
+    color: white;
+    font-size: 20pt;
+    margin-top: 3%;
+  }
+
+  #contact .social-links {
+    margin-top: 5%;
+    border: 1px solid lightblue;
+  }
+
+  #contact ul {
+    margin-left: 22.5%;
+    margin-top: 5%;
+  }
+
+  #contact li {
+    font-size: 20pt;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  #contact li:last-child {
+    margin-bottom: 10%;
+  }
+
+  #contact a {
+    text-decoration: none;
+    color: white;
+  }
+} /** End Mobile **/
+
 body {
-    background-color: #171817;
+  background-color: #171817;
 }
 
 h1 {
-    color: white;
-    font-size: 50pt;
-    text-align: center;
-    text-decoration: underline;
-   /* border-bottom: 3px solid cyan; */
+  color: white;
+  font-size: 50pt;
+  text-align: center;
+  text-decoration: underline;
+  /* border-bottom: 3px solid cyan; */
 }
 
 h3 {
-    color: white;
-    font-size: 2rem;
-    text-align: center;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
 p {
-    color: white;
-    font-size: 12pt;
-    text-align: justify;
+  color: white;
+  font-size: 12pt;
+  text-align: justify;
 }
 
 /* About Page Styling */
 
 .container {
-    justify-content: center;
-    flex-direction: column;
-
+  justify-content: center;
+  flex-direction: column;
 }
 
 .post {
-    flex-wrap: initial;
-    flex-direction: row;
-    width: 100%;
-    box-sizing: border-box;
+  flex-wrap: initial;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .content {
-    border: 1px solid white;
-    margin: 20px 10% ;
+  border: 1px solid white;
+  margin: 20px 10%;
 }
 
-.content h1, h2, p {
-    margin: 25px;
-    padding-bottom: 5px;
-    color: white;  
+.content h1,
+h2,
+p {
+  margin: 25px;
+  padding-bottom: 5px;
+  color: white;
 }
 
 .content h2 {
-    color: #009494;
-    text-decoration: none;
-
+  color: #009494;
+  text-decoration: none;
 }
 
 .content p {
-    font-size: 20px;
-    
+  font-size: 20px;
 }
 
 /* Contact Page */
 
-
-
-#contact h1{
-    color: white;
+#contact h1 {
+  color: white;
 }
 
 #contact p {
-    color: white;
-    font-size: 20pt;
-    margin-top: 3%;
+  color: white;
+  font-size: 20pt;
+  margin-top: 3%;
 }
 
 #contact .social-links {
-    margin-top: 5%;
-    border: 1px solid lightblue;
+  margin-top: 5%;
+
 }
 
 #contact ul {
-    margin-left: 22.5%;
-    margin-top: 5%;
+  padding-top: 10px;
+  margin-left: 12%;
+  margin-top: 5%;
 }
 
 #contact li {
-    font-size: 20pt;
-    color: white;
-    margin-bottom: 20px;
+  font-size: 20pt;
+  color: white;
+  margin-bottom: 20px;
 }
 
 #contact li:last-child {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 #contact a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }

@@ -4,11 +4,11 @@ import "./navbar.css"
 
 const Navbar = props => {
 
-  const navMenuItem = ["About", "Blog", "Contact"]
+  const navMenuItem = ["Landing", "About", "Blog", "Contact"]
 
   const navListing = navMenuItem.map(item => {
     let pagelink = ""
-    if (item === "Home") {
+    if (item === "Landing") {
       pagelink = "/"
     } else {
       pagelink = "/" + item.toLowerCase() + "/"
@@ -21,7 +21,7 @@ const Navbar = props => {
           className="page-link"
           style={{
             boxShadow: `none`,
-            textDecoration: `underline`,
+            textDecoration: `1px underline`,
             color: `inherit`,
           }}
         >
@@ -33,17 +33,6 @@ const Navbar = props => {
 
   return (
     <nav className="navbar">
-      <div>
-        <Link to="/">
-          <h2 style={{ fontSize: "30px" }}>
-            OKelley
-            <span stlye={{ textDecoration: "none", color: "cyan" }}>
-              Development
-            </span>
-          </h2>
-        </Link>
-
-      </div>
       <div className="navbar-item" style={{ align: `right` }}>
         <ul>{navListing}</ul>
       </div>
